@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+body {
+  padding: 70px;
+  background-color: #012e44;
+  font-family: 'Montserrat', sans-serif;
+}
+#vue {
+  display: flex;
+  justify-content: center;
+}
+
+
+.CourseMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+.CourseMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+.CourseMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.CourseMain .Course {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+} 
+.CourseMain .Course li {
+  color: rgb(236, 227, 227);
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+ul.theList {
+  padding: 0;
+}
